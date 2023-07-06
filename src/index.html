@@ -20,10 +20,10 @@
       embedded
       arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
     >
-      <!-- The NFT image used for Tracking -->
+      <!-- The image used for Tracking -->
       <a-nft type="nft" url="public/ar_markers/test/test" smooth="true" smoothCount="10" smoothTolerance=".01" smoothThreshold="10">
-        <!-- Define the GLTF model -->
-        <a-entity gltf-model="public/models/test/test.glb" scale="50 50 50" position="100 100 1"> </a-entity>
+        <!-- Define the glb/gltf model -->
+        <a-entity gltf-model="public/models/test/child.glb" scale="50 50 50" position="100 100 -200" rotation="-90 0 0"> </a-entity>
       </a-nft>
       <!-- Create the Static Camera -->
       <a-entity camera></a-entity>
